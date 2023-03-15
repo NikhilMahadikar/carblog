@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0, 0.5);
+}
+#Mainlist{
+    display: flex;
+}
+.li{
+    background-color: rgb(89, 0, 0);
+    color: white;
+    font-size: 26px;
+    list-style: none;
+    padding: 10px;
+    padding-top: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.li:hover{
+    background-color: rgb(0, 0, 20);
+}
+#sublist{
+    list-style: none;
+    display: none;
+}
+.sli{
+    background-color:rgb(89, 0, 0);
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    top: 25px;
+    text-align: left;
+    font-size:25px ;
+    text-transform: uppercase;
+}
+.sli:hover{
+    background-color:rgb(0, 0, 20) ;
+}
+#hov:hover #sublist{
+    display: block;
+}

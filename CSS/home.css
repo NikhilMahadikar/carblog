@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+width: 100%;
+height: 80vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.531),rgba(0, 0, 0, 0.472)),url(../Asset/Image/header.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100vh,100%;
+background-position: 0px -20vh;
+position: relative;
+}
+#h1{
+    font-size: 30px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 30vh;
+    left:-10vw;
+}
+#h2{
+    font-size: 55px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 35vh;
+    left: -10vw;
+}
+#h3{
+    font-size: 30px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    bottom: -10vh;
+    right: 5vw;
+    font-weight: lighter;
+}
+#h4{
+    font-size: 30px;
+    color:transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    bottom: -10vh;
+    right: 5vw;
+    font-weight: lighter;
+}
+#hexagon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 18vh;
+    right: 35vw;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    transition:background-color 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+#v{
+    color: transparent;
+    transition:color 2s;
+}
+#hexagon:hover{
+    background-color: black;
+    color: white;
+}
+body{
+    background-image: linear-gradient(black,rgb(240, 192, 240));
+    background-size: 100vw 1000vh;
+    background-repeat: no-repeat;
+}
+#cars{
+    width: 95vw;
+    height: 200vh;
+    position: relative;
+    z-index: -1;
+}
+#car1{
+    position: absolute;
+    top: 10vh;
+    width: 60vw;
+    height: 50vh;
+    clip-path: polygon(0 0, 100% 0%, 69% 100%, 0% 100%);
+}
+#car1image{
+    position: relative;
+    right:0px;
+    bottom: 90px;
+    width: 60vw;
+}
+#car1heading{
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#car1info{
+    color: white;
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+#car2{
+    position: absolute;
+    top: 80vh;
+    right: -35px;
+    height: 80vh;
+    clip-path: polygon(88% 0, 100% 35%, 100% 100%, 0 100%, 0 45%);
+}
+#car2image{
+    position: relative;
+    right:0px;
+    bottom: 0px;
+    width: 60vw;
+}
+#car2heading{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 110vh;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#car2info{
+    color: white;
+    width: 300px;
+    position: absolute;
+    left: 30px;
+    top: 125vh;
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    width: 98.4vw;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+i{
+    font-size: 30px;
+    padding: 30px;
+}
+#left{
+    position: absolute;
+    left: 30px;
+}
+#lefttext{
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+}
